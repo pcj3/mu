@@ -4,7 +4,9 @@ NOTES = ["A", "A#", "B", "C","C#", "D","D#", "E", "F","F#", "G", "G#"]
 def generate_scale(root_note, pattern):
     return
 
-def 
+def generate_chords(root_note, *intervals):
+    return
+
 def get_interval_note_up(root_note, interval):
     return NOTES[(NOTES.index(root_note) + interval) % 12]
 
